@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GW SHOP or SWAP"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:padding="7dp" />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/buy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:layout_marginRight="16dp" />
+
+            <Button
+                android:id="@+id/swap_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swap"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+</LinearLayout>

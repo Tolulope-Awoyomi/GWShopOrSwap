@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GW SHOP or SWAP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:padding="7dp" />
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/confirmation_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/logo_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View more items"
+        android:textSize="14sp"
+        android:layout_below="@id/confirmation_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/blue"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Log out TextView -->
+    <TextView
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log me out"
+        android:textSize="14sp"
+        android:layout_below="@id/go_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blue"
+        android:clickable="true"
+        android:focusable="true" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GW SwapOrShop</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="item_name_hint">Item Name</string>
+    <string name="item_description_hint">Item Description</string>
+    <string name="item_price_hint">Price</string>
+    <string name="item_condition_hint">Condition (New, Used, etc.)</string>
+    <string name="submit_button_text">Submit Item</string>
+    <string name="swap_preference_hint">Preferred Swap Items (e.g., Books, Clothes)</string>
+    <string name="item_image">Item Image</string>
+
+    <string-array name="sell_item_category_array">
+        <item>Clothes</item>
+        <item>Kitchen</item>
+        <item>Furniture</item>
+        <item>Books</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>All Items</item>
+        <item>Clothes</item>
+        <item>Kitchen</item>
+        <item>Furniture</item>
+        <item>Books</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string name="pickup_location_prompt">Pick-up Location</string>
+
+    <string-array name="pickup_locations">
+        <item>@string/pickup_location_prompt</item>
+        <item>Kogan</item>
+        <item>Duques</item>
+        <item>Whole Foods</item>
+        <item>Other - Contact</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SWAP"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:padding="7dp" />
+
+        <TextView
+            android:id="@+id/previous_page_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Page"
+            android:textSize="14sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="end" />
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+        <!-- Item Condition -->
+        <TextView
+            android:id="@+id/item_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/blue"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+
+        <!-- New Item Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Details of Your Item for the Swap"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="16dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/new_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Upload Image"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+
+        <EditText
+            android:id="@+id/new_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your item name"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/new_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe your item"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/new_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Approximate price of your item"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/new_item_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Condition of your item (New, Used, etc)"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/swap_submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Swap Request"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
